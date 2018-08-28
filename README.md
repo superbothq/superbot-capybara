@@ -1,0 +1,1 @@
+# Superbot::Capybara
