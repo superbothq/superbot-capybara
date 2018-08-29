@@ -1,10 +1,10 @@
 PATH
   remote: .
   specs:
-    superbot-capybara (0.1.0)
+    superbot-capybara (0.1.1)
       capybara (= 3.6.0)
       cjsonci (= 0.1.0)
-      superbot-selenium-webdriver (= 314.2.1)
+      superbot-selenium-webdriver (= 314.2.5)
 
 GEM
   remote: https://rubygems.org/
@@ -64,7 +64,7 @@ GEM
       rack (~> 2.0)
       rack-protection (= 2.0.3)
       tilt (~> 2.0)
-    superbot-selenium-webdriver (314.2.1)
+    superbot-selenium-webdriver (314.2.5)
       chromedriver-helper (= 1.2.0)
       selenium-webdriver (= 3.14.0)
     tilt (2.0.8)
