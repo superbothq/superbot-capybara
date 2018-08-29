@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    superbot-capybara (0.0.1)
+    superbot-capybara (0.1.0)
       capybara (= 3.6.0)
       cjsonci (= 0.1.0)
       superbot-selenium-webdriver (= 314.2.1)
@@ -83,4 +83,4 @@ DEPENDENCIES
   superbot-capybara!
 
 BUNDLED WITH
-   1.16.3
+   1.16.4
