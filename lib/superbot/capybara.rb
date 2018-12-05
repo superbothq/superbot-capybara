@@ -19,7 +19,6 @@ module Capybara
   end
 end
 
-Superbot::Selenium::WebDriver.use_chromedriver_helper!
 Capybara.current_driver = :selenium_chrome
 
 TOPLEVEL_BINDING.eval "include Capybara::DSL"

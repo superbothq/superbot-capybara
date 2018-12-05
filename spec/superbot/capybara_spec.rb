@@ -4,19 +4,9 @@ RSpec.describe Superbot::Capybara do
   end
 
   it do
-    s = Sinatra.new
-    s.get "/__test" do
-      "ok"
+    isolated do
+      Capybara.visit "#{$__sinatra.base_url}/__test"
+      expect(Capybara.page.text).to eq "ok"
     end
-
-    Thread.new do
-      s.run!
-    end
-
-    Capybara.visit "http://#{s.bind}:#{s.port}/__test"
-
-    s.stop!
-
-    expect(Capybara.page.text).to eq "ok"
   end
 end

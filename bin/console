@@ -11,4 +11,6 @@ require "superbot/capybara"
 # Pry.start
 
 require "irb"
+
+Capybara.visit "about:blank"
 IRB.start(__FILE__)

@@ -1,5 +1,5 @@
 module Superbot
   module Capybara
-    VERSION = "360.0.0"
+    VERSION = "312.0.0"
   end
 end
