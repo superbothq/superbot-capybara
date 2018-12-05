@@ -1,7 +1,14 @@
 PATH
+  remote: ../superbot-selenium-webdriver
+  specs:
+    superbot-selenium-webdriver (1.0.0)
+      chromedriver-helper (= 2.1.0)
+      selenium-webdriver (= 3.141.0)
+
+PATH
   remote: .
   specs:
-    superbot-capybara (1.0.0)
+    superbot-capybara (1.0.1)
       capybara (= 3.12.0)
       cjsonci (= 0.2.0)
       superbot-selenium-webdriver (= 1.0.0)
@@ -72,9 +79,6 @@ GEM
       rack-protection (= 2.0.3)
       tilt (~> 2.0)
     sinatra-silent (0.0.1)
-    superbot-selenium-webdriver (1.0.0)
-      chromedriver-helper (= 2.1.0)
-      selenium-webdriver (= 3.141.0)
     tilt (2.0.8)
     xpath (3.2.0)
       nokogiri (~> 1.8)
@@ -91,6 +95,7 @@ DEPENDENCIES
   sinatra
   sinatra-silent
   superbot-capybara!
+  superbot-selenium-webdriver!
 
 BUNDLED WITH
    1.17.1
