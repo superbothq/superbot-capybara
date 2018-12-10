@@ -1,17 +1,17 @@
 PATH
   remote: ../superbot-selenium-webdriver
   specs:
-    superbot-selenium-webdriver (1.0.0)
+    superbot-selenium-webdriver (1.0.1)
       chromedriver-helper (= 2.1.0)
       selenium-webdriver (= 3.141.0)
 
 PATH
   remote: .
   specs:
-    superbot-capybara (1.0.1)
+    superbot-capybara (1.0.2)
       capybara (= 3.12.0)
       cjsonci (= 0.2.0)
-      superbot-selenium-webdriver (= 1.0.0)
+      superbot-selenium-webdriver (= 1.0.1)
 
 GEM
   remote: https://rubygems.org/
